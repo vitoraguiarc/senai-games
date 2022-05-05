@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SenaiGames">
         <activity
+            android:name=".ViewGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
             android:name=".TelaInicial"
             android:exported="false" />
         <activity
